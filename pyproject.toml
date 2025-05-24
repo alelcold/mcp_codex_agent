@@ -1,0 +1,11 @@
+[project]
+name = "mcp-codex-agent"
+version = "0.1.0"
+dependencies = [
+    "typer",
+    "requests",
+    "python-dotenv"
+]
+
+[project.scripts]
+mcp-codex = "mcp_codex_agent.cli:app"
